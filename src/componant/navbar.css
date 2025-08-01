@@ -1,0 +1,25 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #282c34 60%, #61dafb 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.custom-navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.custom-navbar .nav-link {
+  color: #fff !important;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+.custom-navbar .nav-link:hover {
+  color: #282c34 !important;
+  background: #61dafb;
+  border-radius: 4px;
+}
+.custom-navbar .navbar-toggler {
+  border-color: #fff;
+}
